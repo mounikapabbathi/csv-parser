@@ -1,0 +1,7 @@
+This is a simple restful get method call spring boot (MicroService) application. 
+1. Check out the application and Run the 'CsvParserApplication' as java application. It should bring up the in local  container. 
+2. You can use below service call to test the service in any 'restful client' (Advanced restful client or postman)
+Eg:
+http://localhost:8080/csvParser/parseString/"Patient Name","SSN","Age","Phone Number","Status" "Prescott, Zeke","542-51-6641",21,"801-555-2134","Opratory=2,PCP=1" "Goldstein, Bucky","635-45-1254",42,"435-555-1541","Opratory=1,PCP=1" "Vox, Bono","414-45-1475",51,"801-555-2100","Opratory=3,PCP=2"
+
+3. I didn't intentionally placed any log statements. But created simple test case to test functionality of logic. 
